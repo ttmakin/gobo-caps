@@ -29,7 +29,7 @@ and partial support of
 * Currency Symbols
 * Miscellaneous Symbols
 
-In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic latin letters, a context-sensitive barred / barless I and some custom glyphs.
+In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic latin letters, a context-sensitive barred / barless I, and some custom glyphs.
 
 ## Installing
 
@@ -42,6 +42,13 @@ The source directory provides:
 * the FontForge project files
 * individual glyphs in SVG format
 * individual unmerged glyphs in ODG format
+* a workbench file containing the glyph guideline grid and individual graphic elements for glyph composition
+
+The resources have been created with the following software:
+
+* FontForge V20230101
+* InkScape V1.4
+* LibreOffice V24.2.4.2
 
 ## Author
 
