@@ -1,14 +1,10 @@
 # Gobo Caps
 
-This package provides Gobo Caps, a small caps font.
-
-## Version
-
-1.000
+![Gobo Caps is a small caps handwritten font.](img/blurb.png)
 
 ## Description
 
-Gobo Caps is an OpenType Unicode font simulating professional hand lettering of comics and graphic novels. The current version provides the following weights:
+Gobo Caps is an OpenType Unicode font simulating professional manual lettering of comics and graphic novels. The current version provides the following weights:
 
 * Regular
 
@@ -29,11 +25,11 @@ and partial support of
 * Currency Symbols
 * Miscellaneous Symbols
 
-In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic latin letters, a context-sensitive barred / barless I, and some custom glyphs.
+In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic latin letters and a context-sensitive barred / barless I.
 
 ## Installing
 
-Ready-made font files are found in the fonts folder. Use the standard platform-specific procedure to install the fonts.
+Ready-made font files are found in the fonts folder. Download the raw file and use the standard platform-specific procedure to install it.
 
 ## Resources
 
@@ -57,4 +53,24 @@ Copyright (c) 2025 by Terhi Mäkinen [terhimakin@gmail.com](mailto:terhimakin@gm
 ## License
 
 This font software is provided under the [SIL Open Font License (OFL) version 1.1](https://openfontlicense.org/open-font-license-official-text/).
+
+## Version history
+
+### 1.000
+
+Initial release
+
+### 1.001
+
+* fixed a bug that prevented kerning of Greek and Cyrillic script
+* added more fine-grained kerning classes
+* modified some Greek and Cyrillic glyphs
+* fixed a bug that prevented the application of the eacute_e ligature
+* made endash a ligature of two and emdash a ligature of three hyphens
+* added all Latin letters up to and including Extended-A to the context classes of barred I
+* moved glyphs U+E040 and U+E041 to their proper place at U+269E and U+269F and made them ligatures of =( and )= respectively
+
+## Bug reports
+
+Send bug reports to Terhi Mäkinen [terhimakin@gmail.com](mailto:terhimakin@gmail.com)
 
