@@ -1,6 +1,6 @@
 # Gobo Caps
 
-![Gobo Caps is a small caps handwritten font.](img/blurb.png)
+![Gobo Caps is a small caps handwritten font.](img/blurb2.png)
 
 ## Description
 
@@ -69,6 +69,10 @@ Initial release
 * made endash a ligature of two and emdash a ligature of three hyphens
 * added all Latin letters up to and including Extended-A to the context classes of barred I
 * moved glyphs U+E040 and U+E041 to their proper place at U+269E and U+269F and made them ligatures of =( and )= respectively
+
+### 1.002
+
+* added and modified some Greek and Cyrillic glyphs
 
 ## Bug reports
 
