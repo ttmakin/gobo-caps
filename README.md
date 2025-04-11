@@ -4,7 +4,7 @@
 
 ## Description
 
-Gobo Caps is an OpenType Unicode font simulating professional manual lettering of comics and graphic novels. The current version provides the following weights:
+Gobo Caps is an OpenType Unicode font simulating professional manual lettering in the style typical of comics and graphic novels. It is free for both personal and professional use as detailed by the licence. The current version provides the following weights:
 
 * Regular
 
@@ -14,18 +14,12 @@ with full support of Unicode blocks
 * Latin-1 Supplement
 * Latin Extended-A
 
-and partial support of
+and basic support of
 
-* Latin Extended-B
-* Spacing Modifier Letters
 * Greek and Coptic
 * Cyrillic
-* Latin Extended Additional
-* General Punctuation
-* Currency Symbols
-* Miscellaneous Symbols
 
-In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic latin letters and a context-sensitive barred / barless I.
+In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic Latin letters and a context-sensitive barred / barless I.
 
 ## Installing
 
@@ -44,7 +38,7 @@ The resources have been created with the following software:
 
 * FontForge V20230101
 * InkScape V1.4
-* LibreOffice V24.2.4.2
+* LibreOffice V24.2
 
 ## Author
 
@@ -74,7 +68,16 @@ Initial release
 
 * added and modified some Greek and Cyrillic glyphs
 
+### 1.003
+
+* revision of all y-like glyphs
+* removed the top bar from the Dutch IJ ligatures U+0132 and U+0133
+* made endash and emdash horizontal instead of inclined
+* improved kerning of all hyphen/dash-like glyphs
+* added all missing Cyrillic glyphs in the range U+0400 to U+045F
+* added the glyphs U+2606 (star), U+2713 (check mark), U+2E3E (vertical wiggly line), and U+3030 (horizontal wiggly line)
+
 ## Bug reports
 
-Send bug reports to Terhi Mäkinen [terhimakin@gmail.com](mailto:terhimakin@gmail.com)
+Send bug reports and glyph requests to Terhi Mäkinen [terhimakin@gmail.com](mailto:terhimakin@gmail.com)
 
