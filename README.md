@@ -1,12 +1,13 @@
 # Gobo Caps
 
-![Gobo Caps is a small caps handwritten font.](img/blurb2.png)
+![Gobo Caps is a small caps handwritten font.](img/Glyphs-IT.png)
 
 ## Description
 
-Gobo Caps is an OpenType Unicode font simulating professional manual lettering in the style typical of comics and graphic novels. It is free for both personal and professional use as detailed by the licence. The current version provides the following weights:
+Gobo Caps is an OpenType Unicode font simulating professional manual lettering in the style typical of comics and graphic novels, specifically using a D-type Speedball calligraphic nib. It is free for both personal and professional use as detailed by the licence. The current version provides the following weights:
 
 * Regular
+* Italic
 
 with full support of Unicode blocks
 
@@ -16,29 +17,18 @@ with full support of Unicode blocks
 
 and basic support of
 
-* Greek and Coptic
+* Greek
 * Cyrillic
 
 In addition to standard Unicode glyphs Gobo Caps contains a full set of double letter ligatures for lower case basic Latin letters and a context-sensitive barred / barless I.
 
 ## Installing
 
-Ready-made font files are found in the fonts folder. Download the raw file and use the standard platform-specific procedure to install it.
+Ready-made font files for Windows and Linux systems are found in the fonts folder. Download the raw files and use the standard platform-specific procedure to install them. Separate Mac fonts are not available in this release other than through the provided source files.
 
 ## Resources
 
-The source directory provides:
-
-* the FontForge project files
-* individual glyphs in SVG format
-* individual unmerged glyphs in ODG format
-* a workbench file containing the glyph guideline grid and individual graphic elements for glyph composition
-
-The resources have been created with the following software:
-
-* FontForge V20230101
-* InkScape V1.4
-* LibreOffice V24.2
+The source directory provides the respective project files in FontForge V20230101 format.
 
 ## Author
 
@@ -76,6 +66,12 @@ Initial release
 * improved kerning of all hyphen/dash-like glyphs
 * added all missing Cyrillic glyphs in the range U+0400 to U+045F
 * added the glyphs U+2606 (star), U+2713 (check mark), U+2E3E (vertical wiggly line), and U+3030 (horizontal wiggly line)
+
+### 1.004
+
+* initial release of Gobo Caps Italic
+* Regular: modified glyphs U+0036 (number 6), U+00A5 (Yen symbol), and U+269E (converging lines left)
+* improved kerning of Cyrillic script
 
 ## Bug reports
 

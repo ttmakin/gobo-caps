@@ -5,7 +5,7 @@ FamilyName: Gobo Caps
 Weight: Regular
 Copyright: Copyright (c) 2025 Terhi Makinen (terhimakin@gmail.com), with Reserved Font Name "Gobo Caps"
 UComments: "2025-3-3: Created with FontForge (http://fontforge.org)"
-Version: 001.003
+Version: 001.004
 ItalicAngle: 0
 UnderlinePosition: -99
 UnderlineWidth: 49
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1740994415
-ModificationTime: 1744011644
+ModificationTime: 1746022658
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -49,31 +49,31 @@ Lookup: 4 0 0 "'liga' Standard Ligatures" { "'liga' Standard Ligatures-1"  } ['l
 Lookup: 258 0 0 "'kern' Horizontal Kerning" { "'kern' Horizontal Kerning-1" [120,0,2] } ['kern' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 31 16 "'kern' Horizontal Kerning-1"
+KernClass2: 31 17 "'kern' Horizontal Kerning-1"
  112 a agrave aacute acircumflex atilde adieresis aring amacron abreve aogonek alphatonos alpha delta lambda cy.a a_a
  31 b germandbls beta cy.v cy.z b_b
  5 q q_q
  56 c ccedilla cacute ccircumflex cdotaccent ccaron cy.c c_c
  177 g o ograve oacute ocircumflex otilde odieresis oslash gcircumflex gbreve gdotaccent uni0123 omacron obreve ohungarumlaut theta omicron phi omicrontonos cy.o cy.phi cy.yu g_g o_o
  20 p thorn rho cy.r p_p
- 5 f f_f
+ 10 f tbar f_f
  25 j ij jcircumflex cy.j j_j
  88 k x z uni0137 kgreenlandic zacute zdotaccent zcaron zeta chi cy.zh cy.k cy.x k_k x_x z_z
  39 l lacute uni013C lcaron ldot lslash l_l
  18 m uni03BC cy.m m_m
  45 s sacute scircumflex scedilla scaron cy.s s_s
- 45 t uni0163 tcaron tbar gamma tau cy.g cy.t t_t
+ 50 t uni0163 tcaron gamma tau cy.g cy.t cy.gacute t_t
  5 v v_v
  17 w wcircumflex w_w
  49 y yacute ydieresis ycircumflex cy.y cy.ybreve y_y
  57 upsilondieresistonos upsilon upsilondieresis upsilontonos
- 15 cy.hard cy.soft
+ 47 uni0409 uni040A cy.hard cy.soft uni0459 uni045A
  110 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek Alphatonos Alpha uni0394 Lambda cy.A
  178 D G O Eth Ograve Oacute Ocircumflex Otilde Odieresis Oslash Dcaron Dcroat Gcircumflex Gbreve Gdotaccent uni0122 Omacron Obreve Ohungarumlaut Omicrontonos Theta Omicron cy.O cy.Yu
- 12 F P Rho cy.R
+ 17 F P Tbar Rho cy.R
  70 K X Z uni0136 Zacute Zdotaccent Zcaron Kappa Sigma Chi cy.Zh cy.K cy.X
  35 L Lacute uni013B Lcaron Ldot Lslash
- 41 T uni0162 Tcaron Tbar Gamma Tau cy.G cy.T
+ 46 T uni0162 Tcaron Gamma Tau cy.Gacute cy.G cy.T
  1 V
  13 W Wcircumflex
  54 Y Yacute Ycircumflex Ydieresis Upsilon Upsilondieresis
@@ -85,17 +85,18 @@ KernClass2: 31 16 "'kern' Horizontal Kerning-1"
  25 j ij jcircumflex cy.j j_j
  18 m uni03BC cy.m m_m
  45 s sacute scircumflex scedilla scaron cy.s s_s
- 34 t uni0163 tcaron tbar tau cy.t t_t
+ 50 t uni0163 tcaron tbar tau cy.t uni0452 uni045B t_t
  91 u ugrave uacute ucircumflex udieresis utilde umacron ubreve uring uhungarumlaut uogonek u_u
  5 v v_v
  17 w wcircumflex w_w
  51 x z zacute zdotaccent zcaron chi cy.zh cy.x x_x z_z
  49 y yacute ydieresis ycircumflex cy.y cy.ybreve y_y
  57 upsilondieresistonos upsilon upsilondieresis upsilontonos
+ 9 cy.d cy.l
  90 quotedbl quotesingle quoteleft quoteright quotereversed quotedblleft quotedblright uni201F
  77 hyphen asciitilde uni00AD uni2010 nbhyp figuredash endash emdash qdash wiggle
- 9 cy.d cy.l
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -90 {} -10 {} -100 {} -65 {} -10 {} -80 {} -80 {} -100 {} -15 {} 0 {} 0 {} -30 {} 0 {} 0 {} -25 {} 0 {} -50 {} 0 {} -50 {} -40 {} -40 {} -50 {} -25 {} -20 {} 0 {} -25 {} 0 {} -15 {} 0 {} -20 {} -15 {} 0 {} -40 {} 0 {} -35 {} -20 {} -15 {} -35 {} -15 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -15 {} 0 {} -10 {} 0 {} -15 {} -15 {} -15 {} -15 {} 0 {} 0 {} -15 {} -15 {} 0 {} -45 {} 0 {} -20 {} -35 {} 0 {} -25 {} 0 {} -25 {} -20 {} -30 {} -25 {} 0 {} -13 {} 0 {} -40 {} 0 {} -98 {} -24 {} -54 {} -68 {} 0 {} -15 {} -15 {} -15 {} 0 {} -10 {} -10 {} 0 {} 0 {} -15 {} -35 {} 0 {} -95 {} -30 {} -35 {} -65 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} -35 {} 0 {} -25 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -130 {} -10 {} -142 {} -100 {} -15 {} -96 {} -90 {} -70 {} -50 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -49 {} 0 {} -44 {} -45 {} -15 {} -45 {} -30 {} -24 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -15 {} 0 {} -20 {} 0 {} 0 {} 0 {} -10 {} -15 {} 0 {} -135 {} -105 {} -45 {} -117 {} -65 {} -20 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -25 {} 0 {} -140 {} -78 {} -59 {} -117 {} -39 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -40 {} 0 {} -90 {} -35 {} -40 {} -65 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -70 {} -25 {} 0 {} -160 {} -100 {} -55 {} -120 {} -50 {} 0 {} -15 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -90 {} -40 {} 0 {} -110 {} -70 {} -50 {} -80 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -80 {} -30 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -40 {} -20 {} -15 {} -50 {} -50 {} 0 {} 0 {} -15 {} 0 {} 0 {} -20 {} -15 {} 0 {} -10 {} -110 {} -30 {} -115 {} -75 {} 0 {} -90 {} -90 {} -100 {} -45 {} 0 {} 0 {} -50 {} 0 {} 0 {} -25 {} 0 {} -15 {} 0 {} -15 {} 0 {} -10 {} -15 {} 0 {} 0 {} 0 {} -40 {} 0 {} -117 {} -35 {} -98 {} -90 {} -15 {} -70 {} -15 {} -30 {} -24 {} -50 {} -50 {} -15 {} 0 {} -25 {} -50 {} 0 {} 0 {} -70 {} -49 {} 0 {} -49 {} -98 {} -49 {} -78 {} -78 {} -15 {} -80 {} -15 {} 0 {} -60 {} 0 {} 0 {} 0 {} -49 {} -49 {} 0 {} -49 {} -122 {} -59 {} -155 {} -120 {} 0 {} -103 {} -130 {} -70 {} -80 {} 0 {} 0 {} -60 {} -20 {} -40 {} -50 {} -10 {} -20 {} 0 {} -40 {} -30 {} 0 {} -10 {} 35 {} 90 {} -60 {} 0 {} 0 {} -150 {} -84 {} -97 {} -139 {} -57 {} -35 {} -32 {} -19 {} -25 {} -28 {} -25 {} 0 {} 0 {} -80 {} -80 {} 0 {} -98 {} -44 {} -50 {} -77 {} -25 {} -20 {} -20 {} -20 {} -20 {} -15 {} -20 {} 0 {} 0 {} -40 {} -50 {} 0 {} -150 {} -140 {} -78 {} -130 {} -90 {} -39 {} -35 {} -30 {} -40 {} -40 {} -50 {} -15 {} 0 {} -90 {} -90 {} 0 {} -160 {} -80 {} -80 {} -90 {} -45 {} -25 {} -10 {} 0 {} -20 {} -25 {} -30 {} 0 {} 0 {} -90 {} -90 {} 0 {} -80 {} -60 {} -50 {} -70 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} -50 {} 0 {} -20 {} -35 {} 0 {} -60 {} 0 {} -45 {} -25 {} -25 {} -45 {} -35 {} 0 {} 0 {} -35 {}
+ 12 comma period
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -90 {} -10 {} -100 {} -65 {} -10 {} -80 {} -80 {} 0 {} -100 {} -15 {} 0 {} 0 {} -30 {} 0 {} 0 {} -25 {} 0 {} -50 {} 0 {} -50 {} -40 {} -40 {} -50 {} -25 {} -25 {} -20 {} 0 {} -25 {} 0 {} -15 {} 0 {} -20 {} -15 {} 0 {} -40 {} 0 {} -35 {} -20 {} -15 {} -35 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} -15 {} 0 {} -10 {} 0 {} -15 {} -15 {} -15 {} -15 {} 0 {} -15 {} 0 {} -15 {} -15 {} 0 {} -45 {} 0 {} -20 {} -35 {} 0 {} -25 {} 0 {} -25 {} -20 {} -30 {} -25 {} 0 {} -40 {} -13 {} 0 {} -60 {} 0 {} -98 {} -24 {} -54 {} -68 {} 0 {} -15 {} -15 {} -15 {} 0 {} -10 {} -10 {} 0 {} -35 {} 0 {} -15 {} -120 {} 0 {} -95 {} -30 {} -35 {} -65 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -35 {} 0 {} -15 {} -120 {} 0 {} -25 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -12 {} 0 {} 0 {} -15 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} -130 {} -10 {} -142 {} -100 {} -15 {} -96 {} -90 {} 0 {} -70 {} -50 {} 0 {} 0 {} -10 {} 0 {} 0 {} 0 {} 0 {} -49 {} 0 {} -44 {} -45 {} -15 {} -45 {} -30 {} 0 {} -24 {} -10 {} 0 {} 0 {} -20 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} -15 {} 0 {} -20 {} 0 {} 0 {} -15 {} 0 {} -10 {} 0 {} 0 {} -135 {} -105 {} -45 {} -117 {} -65 {} -20 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -80 {} -120 {} 0 {} -140 {} -78 {} -59 {} -117 {} -39 {} 0 {} -15 {} 0 {} 0 {} 0 {} 0 {} 0 {} -40 {} 0 {} -70 {} -130 {} 0 {} -90 {} -35 {} -40 {} -65 {} -10 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -25 {} 0 {} -70 {} -78 {} 0 {} -160 {} -100 {} -55 {} -120 {} -50 {} 0 {} -15 {} 0 {} -10 {} 0 {} 0 {} 0 {} -40 {} 0 {} -90 {} -160 {} 0 {} -110 {} -70 {} -50 {} -80 {} -40 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} 0 {} -80 {} -86 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -100 {} 0 {} -40 {} -20 {} -15 {} -50 {} -50 {} 0 {} 0 {} 0 {} -1 {} 0 {} 0 {} -20 {} -15 {} 0 {} -10 {} -110 {} -30 {} -115 {} -75 {} 0 {} -90 {} -90 {} 0 {} -100 {} -45 {} 0 {} 0 {} -50 {} 0 {} 0 {} -25 {} 0 {} -15 {} 0 {} -15 {} 0 {} -10 {} -15 {} 0 {} -40 {} 0 {} 0 {} -43 {} 0 {} -117 {} -35 {} -98 {} -90 {} -15 {} -70 {} -15 {} -30 {} -24 {} -50 {} -50 {} -15 {} -50 {} 0 {} -25 {} -90 {} 0 {} 0 {} -70 {} -49 {} 0 {} -49 {} -98 {} -49 {} -78 {} -78 {} -15 {} -80 {} -15 {} 0 {} 0 {} -60 {} 0 {} 0 {} 0 {} -49 {} -49 {} 0 {} -49 {} -122 {} -59 {} -155 {} -120 {} 0 {} -103 {} -130 {} 0 {} -70 {} -80 {} 0 {} 0 {} -60 {} -20 {} -40 {} -50 {} -10 {} -20 {} 0 {} -40 {} -30 {} 0 {} -10 {} 35 {} 0 {} 90 {} -60 {} 0 {} 0 {} -150 {} -84 {} -97 {} -139 {} -57 {} -35 {} -32 {} -19 {} -25 {} -28 {} -25 {} 0 {} -80 {} 0 {} -80 {} -140 {} 0 {} -98 {} -44 {} -50 {} -77 {} -25 {} -20 {} -20 {} -20 {} -20 {} -15 {} -20 {} 0 {} -50 {} 0 {} -40 {} -70 {} 0 {} -150 {} -140 {} -78 {} -130 {} -90 {} -39 {} -35 {} -30 {} -40 {} -40 {} -50 {} -15 {} -90 {} 0 {} -90 {} -120 {} 0 {} -160 {} -80 {} -80 {} -90 {} -45 {} -25 {} -10 {} 0 {} -20 {} -25 {} -30 {} 0 {} -90 {} 0 {} -90 {} -140 {} 0 {} -80 {} -60 {} -50 {} -70 {} -50 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -20 {} 0 {} 0 {} 0 {} 0 {} -50 {} 0 {} -20 {} -35 {} 0 {} -60 {} 0 {} -45 {} -25 {} -25 {} -45 {} -35 {} -35 {} 0 {} 0 {} 0 {}
 ChainSub2: class "'calt' medial i-1" 2 2 2 2
   Class: 1 i
   BClass: 1754 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn germandbls agrave aacute acircumflex atilde adieresis aring ae ccedilla egrave eacute ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde ograve oacute ocircumflex otilde odieresis oslash ugrave uacute ucircumflex udieresis yacute thorn ydieresis Amacron amacron Abreve abreve Aogonek aogonek Cacute cacute Ccircumflex ccircumflex Cdotaccent cdotaccent Ccaron ccaron Dcaron dcaron Dcroat dcroat Emacron emacron Ebreve ebreve Edotaccent edotaccent Eogonek eogonek Ecaron ecaron Gcircumflex gcircumflex Gbreve gbreve Gdotaccent gdotaccent uni0122 uni0123 Hcircumflex hcircumflex Hbar hbar Itilde itilde Imacron imacron Ibreve ibreve Iogonek iogonek Idotaccent dotlessi IJ ij Jcircumflex jcircumflex uni0136 uni0137 kgreenlandic Lacute lacute uni013B uni013C Lcaron lcaron Ldot ldot Lslash lslash Nacute nacute uni0145 uni0146 Ncaron ncaron Eng eng Omacron omacron Obreve obreve Ohungarumlaut ohungarumlaut OE oe Racute racute uni0156 uni0157 Rcaron rcaron Sacute sacute Scircumflex scircumflex Scedilla scedilla Scaron scaron uni0162 uni0163 Tcaron tcaron Tbar tbar Utilde utilde Umacron umacron Ubreve ubreve Uring uring Uhungarumlaut uhungarumlaut Uogonek uogonek Wcircumflex wcircumflex Ycircumflex ycircumflex Ydieresis Zacute zacute Zdotaccent zdotaccent Zcaron zcaron longs a_a b_b c_c d_d e_e f_f g_g h_h i_i j_j k_k l_l m_m n_n o_o p_p q_q r_r s_s t_t u_u v_v w_w x_x y_y z_z i.medial
@@ -123,11 +124,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 160 16 22
+WinInfo: 9760 16 22
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65536 573
+BeginChars: 65536 575
 
 StartChar: a
 Encoding: 97 97 0
@@ -2628,7 +2629,7 @@ Encoding: 52 52 73
 Width: 360
 Flags: W
 HStem: -8 21G<219 222.5> 105 75<49.5 198.807> 127 82<271 320.83> 468 20G<234.5 249>
-VStem: 25 60<158.5 232.372> 198 73<nan 122.548>
+VStem: 25 60<158.5 232.372> 198 73
 LayerCount: 2
 Fore
 SplineSet
@@ -2703,36 +2704,37 @@ EndChar
 
 StartChar: six
 Encoding: 54 54 75
-Width: 344
+Width: 324
 Flags: W
-HStem: -2 76<125.402 245.507> 221 72<106.758 222.715> 413 75<157.392 276.673>
-VStem: 23 63<109.445 207.643> 261 60<86.0951 182.152>
+HStem: -2 76<115.402 235.507> 222 71<97.1486 213.177> 413 75<148.593 256.492>
+VStem: 13 63<110.099 207.434> 251 60<86.0951 185.284>
 LayerCount: 2
 Fore
 SplineSet
-257 397 m 0
- 235 397 229 413 201 413 c 0
- 152 413 124 345 106 278 c 1
- 135 288 160 293 184 293 c 0
- 270 293 321 232 321 163 c 2
- 321 157 l 1
- 317 67 278 11 170 -1 c 0
- 164 -2 159 -2 154 -2 c 0
- 74 -2 23 65 23 159 c 0
- 23 180 25 203 31 227 c 0
- 60 348 113 488 229 488 c 0
- 246 488 263 485 283 479 c 0
- 297 476 305 453 305 431 c 0
- 305 427 304 424 304 421 c 0
- 302 405 276 397 257 397 c 0
-261 127 m 0
- 261 171 223 221 161 221 c 0
- 143 221 122 217 100 207 c 0
- 99 207 96 206 90 205 c 1
- 90 205 86 183 86 170 c 0
- 86 100 147 77 188 74 c 1
- 197 74 l 2
- 234 74 261 90 261 127 c 0
+21 227 m 0
+ 49 344 100 488 218 488 c 0
+ 235 488 253 485 272 479 c 0
+ 280 477 284 470 284 462 c 0
+ 284 438 257 399 237 399 c 0
+ 235 399 233 399 231 400 c 0
+ 216 409 203 413 191 413 c 0
+ 142 413 114 345 96 278 c 1
+ 125 288 151 293 174 293 c 0
+ 261 293 311 232 311 163 c 0
+ 311 161 311 159 311 157 c 0
+ 307 67 268 11 160 -1 c 0
+ 154 -2 149 -2 144 -2 c 0
+ 64 -2 13 66 13 159 c 0
+ 13 181 15 203 21 227 c 0
+250 139 m 0
+ 245 177 210 222 152 222 c 0
+ 134 222 115 218 94 209 c 0
+ 89 207 84 205 80 205 c 1
+ 77 193 76 182 76 172 c 0
+ 76 117 114 78 178 74 c 0
+ 181 74 184 74 187 74 c 0
+ 224 74 251 90 251 127 c 0
+ 251 131 251 135 250 139 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -3524,53 +3526,57 @@ EndChar
 
 StartChar: yen
 Encoding: 165 165 100
-Width: 430
+Width: 462
 Flags: W
-HStem: -72 21G<203.5 226> 44 82<97.22 182.673> 69 81<257.865 331.83> 177 81<99.6008 182.821> 201 82<253.547 334.306>
-VStem: 184 65<140 191> 191 71<-56.7484 57.8867>
+HStem: 69 81<274.368 349.83> 69 71<274 349.83> 198 82<287.625 352.264> 466 20G<50.5 66.5>
+VStem: 15 70<451.187 481.745> 203 60<140 188> 209 71<-56.7484 57.4099>
 LayerCount: 2
 Fore
 SplineSet
-215 -72 m 0xaa
- 192 -72 191 -31 191 -25 c 0xaa
- 190 -7 189 23 187 59 c 1
- 140 52 120 44 119 44 c 2
- 117 44 l 2
- 103 44 93 68 93 91 c 0
- 93 103 93 122 138 126 c 0
- 153 128 159 128 184 131 c 1xc4
- 184 151 184 172 185 191 c 1
- 138 184 124 177 122 177 c 2
- 120 177 l 2
- 106 177 96 199 96 222 c 0
- 96 234 96 254 139 258 c 0
- 156 260 161 260 191 264 c 0xd2
- 191 265 192 264 192 265 c 0
- 140 306 55 380 37 425 c 0
- 33 434 31 445 31 455 c 0
- 31 459 31 463 32 467 c 0
- 34 482 58 491 77 491 c 0
- 127 491 66 454 226 342 c 1
- 263 400 318 476 328 500 c 0
- 333 511 355 518 376 518 c 0
- 392 518 397 510 397 501 c 0
- 397 456 272 338 252 273 c 1
- 285 278 319 283 325 283 c 2
- 330 283 l 2
- 347 283 353 275 353 264 c 0
- 353 240 322 201 304 201 c 2
- 303 201 l 2
- 293 201 271 200 246 198 c 1
- 247 180 247 160 249 140 c 1x8c
- 266 143 315 150 322 150 c 2
- 327 150 l 2
- 344 150 350 142 350 131 c 0
- 350 107 320 69 302 69 c 2
- 301 69 l 2
- 293 69 277 68 257 67 c 1
- 260 43 262 16 262 0 c 2
- 262 -8 l 2
- 262 -31 237 -72 215 -72 c 0xaa
+203 188 m 1xbc
+ 155 181 142 174 140 174 c 0
+ 139 174 138 174 138 174 c 0
+ 123 174 114 196 114 219 c 0
+ 114 223 114 227 115 231 c 0
+ 118 251 148 255 184 258 c 1
+ 125 299 48 360 22 415 c 0
+ 17 425 14 439 14 451 c 0
+ 14 455 15 459 15 462 c 0
+ 17 477 41 486 60 486 c 0
+ 73 486 83 482 85 473 c 1
+ 105 410 199 349 250 315 c 1
+ 296 384 369 482 379 505 c 0
+ 381 509 392 521 423 523 c 0
+ 424 523 425 523 427 523 c 0
+ 442 523 448 516 448 505 c 0
+ 448 489 433 465 424 456 c 1
+ 398 417 325 332 287 272 c 1
+ 291 273 337 280 343 280 c 0
+ 345 280 346 280 348 280 c 0
+ 364 280 371 272 371 261 c 0
+ 371 237 340 198 322 198 c 0
+ 321 198 l 1
+ 311 198 288 197 263 195 c 1
+ 263 190 263 186 263 181 c 0
+ 263 168 264 154 265 140 c 1x7c
+ 317 148 336 150 340 150 c 0
+ 342 150 343 150 345 150 c 0
+ 362 150 368 142 368 131 c 0
+ 368 107 338 69 320 69 c 0
+ 319 69 l 0
+ 311 69 294 68 274 67 c 1
+ 276 50 280 19 280 -8 c 0
+ 280 -31 255 -72 233 -72 c 0
+ 228 -72 224 -71 220 -66 c 0
+ 212 -57 209 -38 209 -24 c 0xba
+ 208 -4 206 25 204 59 c 1
+ 158 52 138 44 137 44 c 0
+ 136 44 136 44 135 44 c 0
+ 121 44 111 67 111 91 c 0
+ 111 94 111 98 112 102 c 0
+ 114 117 134 124 156 126 c 0
+ 171 128 177 128 202 131 c 1
+ 202 151 202 170 203 188 c 1xbc
 EndSplineSet
 Validated: 1
 EndChar
@@ -20748,7 +20754,7 @@ Encoding: 1062 1062 493
 Width: 482
 Flags: W
 HStem: -104 76<54 199.223> 578 20G<380 413.5>
-VStem: 22 62<-27.9934 566.95> 364 62<nan 595.952> 395 72<-112.885 -62.0008>
+VStem: 22 62<-27.9934 566.95> 364 62
 LayerCount: 2
 Fore
 SplineSet
@@ -20966,7 +20972,7 @@ Encoding: 1067 1067 498
 Width: 574
 Flags: W
 HStem: -110 82<8.60083 52 123 214.088> -65 21G<504 523> 273 72<111.935 338.674> 582 20G<521 543>
-VStem: 46 63<-9.5686 259.518 332 549.883> 52 71<-27 207.962 340.469 562.922> 402 63<62.6377 210.696> 487 70<nan 597.975>
+VStem: 46 63<-9.5686 259.518 332 549.883> 52 71<-27 207.962 340.469 562.922> 402 63<62.6377 210.696> 487 70
 LayerCount: 2
 Fore
 SplineSet
@@ -22366,48 +22372,49 @@ EndChar
 
 StartChar: whiskerleft
 Encoding: 9886 9886 533
-Width: 356
+Width: 324
 Flags: W
-HStem: -78 21G<121 131.5> 179 79<33.5496 57 57.0462 130.138> 209 81<106.37 288.851> 409 80<218.573 303.216> 443 82<82.1042 128.952 129 230.871>
-VStem: 30 291
+HStem: 16 81<229.225 291.352> 179 79<19.3223 118.928> 209 81<93.5994 274.306> 408 80<237.022 289.989> 459 81<74.7663 188.75>
+VStem: 16 291
 LayerCount: 2
 Fore
 SplineSet
-79 489 m 0x94
- 79 500 79 523 125 525 c 0x8c
- 126 525 128 524 129 524 c 2
- 136 524 l 1
- 158 522 228 512 309 489 c 0
- 310 489 311 488 312 488 c 0
- 318 485 321 479 321 472 c 0
- 321 448 292 408 273 408 c 0
- 272 408 270 409 269 409 c 2
- 268 409 l 1x94
- 216 429 162 440 103 443 c 0x8c
- 85 443 79 469 79 489 c 0x94
-57 179 m 2xc4
- 53 179 l 2
- 40 179 30 200 30 224 c 0
- 30 235 30 252 60 258 c 0xc4
- 139 278 202 285 274 290 c 1
- 281 290 l 2
- 282 290 284 291 285 291 c 0
- 300 291 306 282 306 271 c 0
- 306 247 279 209 257 209 c 0xa4
- 154 209 148 208 59 180 c 0
- 58 180 58 179 57 179 c 2xc4
-301 97 m 0
- 316 97 322 90 322 79 c 0
- 322 58 299 25 281 16 c 0
- 257 7 168 -51 146 -71 c 0
- 140 -76 134 -78 129 -78 c 0
- 113 -78 105 -58 105 -39 c 0
- 105 -26 107 -13 115 -7 c 0
- 137 11 261 91 270 91 c 0
- 278 94 287 95 297 96 c 0
- 298 96 300 97 301 97 c 0
+72 516 m 0x8c
+ 74 534 103 540 120 540 c 0x8c
+ 123 540 127 540 129 539 c 0
+ 156 533 224 516 296 488 c 1
+ 304 486 307 479 307 471 c 0
+ 307 448 280 408 259 408 c 0x94
+ 257 408 255 409 253 410 c 0
+ 160 458 93 458 92 459 c 0
+ 78 462 71 485 71 505 c 0
+ 71 509 72 513 72 516 c 0x8c
+262 290 m 1xa4
+ 264 290 267 290 269 290 c 0
+ 286 290 293 282 293 271 c 0
+ 293 247 262 209 244 209 c 0
+ 243 209 l 1
+ 232 209 222 209 212 209 c 0xa4
+ 166 209 123 206 45 180 c 0
+ 43 179 41 179 39 179 c 0
+ 24 179 16 202 16 224 c 0
+ 16 228 16 232 17 236 c 0
+ 19 251 39 256 46 258 c 0xc4
+ 136 280 195 285 260 290 c 1
+ 262 290 l 1xa4
+247 86 m 0
+ 252 90 272 97 287 97 c 0
+ 298 97 307 93 307 79 c 0
+ 307 75 306 69 304 62 c 0
+ 304 61 291 25 267 16 c 0
+ 256 11 184 -27 138 -66 c 0
+ 129 -75 121 -78 115 -78 c 0
+ 99 -78 91 -57 91 -37 c 0
+ 91 -24 94 -12 101 -7 c 0
+ 102 -6 184 52 247 86 c 0
 EndSplineSet
 Validated: 1
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures-1" equal parenleft
 EndChar
 
@@ -24196,6 +24203,57 @@ SplineSet
  28 274 38 281 43 283 c 0x40
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: circumflex
+Encoding: 710 710 573
+Width: 352
+Flags: W
+HStem: 504 74<242.5 311.097>
+VStem: 37 286<511 557>
+LayerCount: 2
+Fore
+SplineSet
+323 557 m 0
+ 323 528 293 504 277 504 c 2
+ 275 504 l 2
+ 265 504 215 511 165 548 c 1
+ 124 507 78 484 55 484 c 0
+ 49 484 37 484 37 511 c 0
+ 37 528 45 547 63 555 c 0
+ 91 568 133 608 140 622 c 0
+ 145 631 167 638 185 638 c 0
+ 194 638 202 636 205 631 c 1
+ 241 594 256 590 310 578 c 0
+ 318 576 323 568 323 557 c 0
+EndSplineSet
+EndChar
+
+StartChar: uni02C9
+Encoding: 713 713 574
+Width: 342
+Flags: W
+HStem: 494 82<26.22 207.832> 510 81<50.588 305.313>
+VStem: 22 301<526.654 571.285>
+LayerCount: 2
+Fore
+SplineSet
+208 510 m 0x60
+ 206 510 102 508 51 495 c 0
+ 50 495 49 494 48 494 c 2
+ 46 494 l 2
+ 32 494 22 518 22 541 c 0
+ 22 544 23 548 23 551 c 0
+ 25 566 45 575 68 576 c 1
+ 69 576 l 1xa0
+ 93 578 209 581 284 590 c 0
+ 288 591 293 591 298 591 c 0
+ 299 591 301 592 302 592 c 0
+ 317 592 323 584 323 573 c 0
+ 323 550 298 514 277 510 c 0
+ 276 510 276 509 275 509 c 0
+ 266 509 237 510 208 510 c 0x60
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
